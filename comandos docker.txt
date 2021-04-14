@@ -1,0 +1,30 @@
+docker ps "ver os container de pe"
+
+docker ps -a "ver todos os containers"
+
+docker rm id "deletar o container"
+
+docker start id "iniciar o container"
+
+docker stop id "parar o container" t
+
+---
+
+docker-compose up "subir em real time"
+docker-compose up -D "subir e liberar o terminal"
+docker-compose stop "parar "
+docker-compose start "iniciar"
+docker-compose down
+docker-compose up
+
+docker exec -it rentx /bin/bash "entrar no container"
+
+
+docker logs name "ver o log antigo"
+
+docker logs name -f "ver log em tempo real"
+
+-- comandos geral
+
+yarn test --detectOpenHandles
+
