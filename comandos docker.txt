@@ -6,7 +6,7 @@ docker rm id "deletar o container"
 
 docker start id "iniciar o container"
 
-docker stop id "parar o container" t
+docker stop id "parar o container" 
 
 ---
 
