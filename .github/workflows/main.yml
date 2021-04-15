@@ -44,5 +44,4 @@ jobs:
             cd ~/app/ignite
             yarn
             ./node_modules/.bin/typeorm migration:run
-            yarn build
             pm2 restart rentx_api
